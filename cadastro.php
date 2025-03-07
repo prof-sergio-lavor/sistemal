@@ -13,18 +13,37 @@
     <div class="container">
         <div class="coluna">
             <div class="linha">
+            <h1>Cadastre-se</h1>
             
+    <form>
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome Completo</label>
+    <input type="text" class="form-control" id="nome">
+  
+ 
+    <label for="endereco" class="form-label">Endereço</label>
+    <input type="text" class="form-control" id="endereco">
+  
+  
+    <label for="telefone" class="form-label">Telefone</label>
+    <input type="text" class="form-control" id="telefone">
+
+    <label for="data" class="form-label">Data de Nascimento</label>
+    <input type="date" class="form-control" id="data">
+
+
+    <label for="email" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="email">
+
+    <label for="senha" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="senha">
+  
+
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
     
-            <div class="jumbotron">
-  <h1 class="display-4">Sistema Leopoldina</h1>
-  <p class="lead">Esse sistema está sendo desenvolvido por alunos do curso técnico em informática da EEEP LEOPOLDINA</p>
-  <hr class="my-4">
-  <p>TURMA DO 3 ANO DO CURSO TÉCNICO EM INFORMÁTICA.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="cadastro.php" role="button">Cadastre-se</a>
-    <a class="btn btn-primary btn-lg" href="" role="button">Pesquisar usuários</a>
-  </p>
-</div>
 
 
   </body>
