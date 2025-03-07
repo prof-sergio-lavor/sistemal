@@ -28,12 +28,16 @@
     <label for="telefone" class="form-label">Telefone</label>
     <input type="text" class="form-control" id="telefone">
 
-    <label for="email" class="form-label">E-mail</label>
-    <input type="email" class="form-control" id="email">
-
     <label for="data" class="form-label">Data de Nascimento</label>
     <input type="date" class="form-control" id="data">
 
+
+    <label for="email" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="email">
+
+    <label for="senha" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="senha">
+  
 
   </div>
   
